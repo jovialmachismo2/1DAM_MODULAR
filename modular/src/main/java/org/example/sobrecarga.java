@@ -1,0 +1,20 @@
+package org.example;
+
+public class sobrecarga {
+
+    public static void atacar(){
+        System.out.println("ATACANDO");
+    }
+
+    public static void atacar(String nombre){
+        System.out.println("Te esta atacando " + nombre );
+    }
+
+    public static void atacar(int nivel){
+        System.out.println("ATACANDO CON NIVEL " + nivel);
+    }
+
+    static void main(String[] args) {
+        atacar(10);
+    }
+}
