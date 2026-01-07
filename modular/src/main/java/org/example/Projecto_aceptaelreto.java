@@ -23,7 +23,7 @@ public class Projecto_aceptaelreto {
                     for (int i = 0; i < bocadillos.length; i++) {
                         pasar_int_bocadillo[i] = Integer.parseInt(bocadillos[i]);
                         suma = pasar_int_bocadillo[i] + suma;
-                    } 
+                    }
                 }
             }
         }
